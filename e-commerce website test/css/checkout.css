@@ -1,0 +1,112 @@
+body {
+    box-sizing: border-box;
+    margin: 50px 100px;
+    padding: 0;
+}
+
+label::after {
+    content: "*";
+    color: red;
+}
+
+.checkout-left {
+    display: grid;
+    margin: 50px 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.checkout-nav a {
+    text-decoration: none;
+}
+
+.checkout-nav img {
+    height: 16px;
+    width: 16px;
+}
+
+.billing-details form div {
+    padding: 10px 0;
+}
+
+.billing-details label {
+    width: 200px;
+    display: inline-block;
+}
+
+.text-area {
+    display: flex;
+}
+
+form input {
+    height: 20px;
+    width: 45%;
+}
+
+form select {
+    height: 20px;
+    width: 45%;
+}
+
+.order-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.your-order-img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.your-order-img img {
+    width: 30%;
+    height: 50%;
+}
+
+.your-order-btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.your-order-btn button {
+    padding: 15px 30px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width:768px) {
+    .checkout-left {
+        display: grid;
+        margin: 50px 0;
+        grid-template-columns: 1fr;
+    }
+
+    .your-order-container {
+        margin-top: 100px;
+    }
+
+    textarea {
+        width: 50%;
+        height: 60px;
+    }
+
+    form input {
+        height: 30px;
+        width: 50%;
+    }
+
+    form select {
+        height: 20px;
+        width: 50%;
+    }
+
+    label {
+        display: inline-block;
+    }
+    
+}

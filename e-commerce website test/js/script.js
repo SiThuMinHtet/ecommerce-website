@@ -27,6 +27,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+
+// tags
 function openMenu(menuItem) {
   var i;
   var x = document.getElementsByClassName("menu");

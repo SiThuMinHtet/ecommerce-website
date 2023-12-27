@@ -78,7 +78,9 @@ body {
     padding: 14px 16px;
     background-color: inherit;
     font: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    margin-top: -15px; /* Important for vertical align on mobile phones */
+    display: flex;
+    align-items: center;
   }
 
   .dropbtn img {
