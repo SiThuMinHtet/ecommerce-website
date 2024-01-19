@@ -108,5 +108,100 @@ form select {
     label {
         display: inline-block;
     }
-    
+}
+
+@media (max-width:321px) {
+    body {
+        margin: 50px 0;
+        padding: 0;
+    }
+
+    textarea {
+        width: 70%;
+        height: 60px;
+    }
+
+    .text-area {
+        display: inline-block;
+    }
+
+    .billing-details {
+        text-align: center;
+    }
+
+    .billing-details form {
+        text-align: center;
+    }
+}
+
+@media (max-width:376px) {
+    body {
+        margin: 50px 0;
+    }
+
+    textarea {
+        width: 50%;
+        height: 60px;
+    }
+
+    .text-area {
+        display: inline-block;
+    }
+
+    .billing-details {
+        text-align: center;
+    }
+
+    .billing-details form {
+        text-align: center;
+    }
+}
+
+@media (max-width:426px) {
+    body {
+        margin: 50px 0;
+    }
+
+    textarea {
+        width: 50%;
+        height: 60px;
+    }
+
+    .text-area {
+        display: inline-block;
+    }
+
+    .billing-details {
+        text-align: center;
+    }
+
+    .billing-details form {
+        text-align: center;
+    }
+
+    .form-select {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .your-order-container {
+        margin: 0 30px;
+    }
+
+    .checkout-nav {
+        margin: 0 20px;
+    }
+}
+
+
+@media (max-width:640px) {
+    .form-select {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .text-area {
+        display: inline-block;
+    }
 }

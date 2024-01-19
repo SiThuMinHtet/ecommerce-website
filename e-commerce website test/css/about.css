@@ -4,6 +4,15 @@ body {
     margin: 100px 50px;
 }
 
+.about-home {
+    padding-bottom: 20px;
+}
+
+.about-home a{
+    text-decoration: none;
+    color: black;
+}
+
 .our-story {
     display: flex;
     justify-content: center;
@@ -75,7 +84,7 @@ body {
 
 
 
-@media(max-width:1024px){
+/* @media(max-width:1024px){
     .grid-img img{
         height: 70%;
     }
@@ -88,16 +97,16 @@ body {
     .our-services-grid{
         gap: 20px;
     }
-} 
+}  */
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
     .our-service-item img {
         height: 15%;
     }
 
     .our-story {
         padding: 0 50px;
-        /* overflow: hidden; */
+        
     }
 
     .our-story p {
@@ -108,9 +117,9 @@ body {
         width: 140%;
     }
 
-}
+} */
 
-@media (max-width:426px) {
+/* @media (max-width:426px) {
     .our-story {
         display: flex;
         flex-direction: column;
@@ -146,9 +155,9 @@ body {
         align-items: center;
         margin-top: 50px;
     }
-}
+} */
 
-@media (max-width:426px) {
+/* @media (max-width:426px) {
     .our-services-grid {
         padding: 50px 0;
         display: grid;
@@ -229,4 +238,73 @@ body {
     .our-story div  p {
         text-align: left;
     }
+} */
+
+
+@media (min-width:320px) and (max-width:768px) {
+    body {
+        background: white;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .out-story-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+  .our-story {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background: #F4F4F4;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .our-great-team-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+  }
+
+
+  .our-great-team-grid .grid-img {
+    height: 70%;
+  }
+
+  .testimonial {
+    background: #F4F4F4;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
 }
+
+.testimonial p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-img img{
+    padding: 0;
+    margin: 10px 0;
+    border-radius: 50%;
+    width: 90%;
+}
+
+
+
+  .our-services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    text-align: center;
+}
+}
+

@@ -1,8 +1,19 @@
+
 body {
-    margin: 200px 50px;
+    margin: 50px 50px;
     padding: 0;
     background: white;
 }
+
+.container .blog-home {
+    padding-bottom: 20px;
+}
+
+.container .blog-home a{
+    text-decoration: none;
+    color: black;
+}
+
 .card-date {
     display: flex;
     justify-content: space-between;
@@ -57,8 +68,53 @@ hr {
     background: #ccc;
 }
 
+@media (max-width:1025px) {
+    body {
+        margin: 50px 0;
+        padding: 0 50px;
+    }
+}
+
 @media (max-width:768px)  {
     .card-date {
         font-size: 14px;
+    }
+
+    body {
+        margin: 50px 0;
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:320px) {
+    body {
+        margin: 50px 0;
+        padding: 0 50px;
+    }
+
+    .card-galley {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:376px) {
+    body {
+        margin: 50px 0;
+        padding: 0 50px;
+    }
+
+    .card-galley {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:426px) {
+    body {
+        margin: 50px 0;
+        padding: 0 50px;
+    }
+
+    .card-galley {
+        flex-direction: column;
     }
 }

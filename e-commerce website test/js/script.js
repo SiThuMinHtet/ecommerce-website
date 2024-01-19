@@ -1,3 +1,13 @@
+const hamburger = document.querySelector(".hamburger");
+const navbar = document.querySelector(".navbar");
+
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navbar.classList.toggle("active");
+
+})
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -38,4 +48,14 @@ function openMenu(menuItem) {
   document.getElementById(menuItem).style.display = "grid";
 }
 
+
+// const hamburger = document.querySelector(".hamburger");
+// const navbar = document.querySelector(".navbar");
+
+
+// hamburger.addEventListener("click", () => {
+//     hamburger.classList.toggle("active");
+//     navbar.classList.toggle("active");
+
+// })
 

@@ -2,11 +2,21 @@ body {
     margin: 100px 50px;
 }
 
+.contact-home {
+    padding-bottom: 20px;
+}
+
+.contact-home a {
+    text-decoration: none;
+    color: black;
+}
+
 #long-input {
     width: 98%;
     margin: 20px 0;
     height: 50px;
 }
+
 textarea {
     width: 98%;
     height: 100px;
@@ -24,14 +34,12 @@ textarea {
 }
 
 
-
 .talk-to-us-info {
-    height: 300px;
     background-color: #F4F4F4;
     text-align: center;
     display: flex;
-   justify-content: space-between;
-   align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .info {
@@ -61,7 +69,28 @@ textarea {
     }
 
     .talk-to-us-info  {
+        align-items: baseline;
         margin-top: 100px;
     }
+}
 
+@media (max-width:426px) {
+    .talk-to-us-info  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .talk-to-us-first-input {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #submit {
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        padding: 10px 20px;
+        background: black;
+        color: white;
+    }
 }

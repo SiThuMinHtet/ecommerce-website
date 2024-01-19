@@ -44,3 +44,38 @@
     }
 }
 
+@media (max-width:426px){
+    .cata-nav {
+        margin: 30px 30px;
+        padding: 0;
+    }
+
+    .shop-nav {
+        margin: 0 30px;
+        padding: 0;
+    }
+
+    .shop-dropdown button{
+        font-size: 14px;
+    }
+
+    .shop-nav .shop-nav-right{
+        margin-top: 0;
+    }
+
+    .menu {
+        padding: 0;
+        margin: 0;
+    }
+
+    .shop-product-grid .menu {
+        padding: 0 20px;
+    }
+
+    .shop-product-grid .menu {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5,1fr);
+    }
+}
+

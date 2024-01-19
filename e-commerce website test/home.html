@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="css/home-responsive.css">
 </head>
 
 <body>
@@ -27,14 +28,15 @@
     </ul>
 
     <div>
-      <p>Up to 40% of best selling furniture. <a href="">Shop Now</a></p>
+      <p>Up to 40% of best selling furniture. <a href="shop.html">Shop Now</a></p>
     </div>
   </nav>
   <div class="navbar">
-    <div>
-      <a href="#home">LOGO</a>
+    <div class="first-nav-icon">
+      <a href="home.html">LOGO</a>
       <a href="home.html">Home</a>
       <a href="shop.html">Shop</a>
+
       <div class="dropdown">
         <button class="dropbtn">
           <a href="catagory.html">Catagory</a>
@@ -69,6 +71,7 @@
           </div>
         </div>
       </div>
+
       <a href="Blog.html">Blog</a>
       <a href="about.html">About Us</a>
       <a href="contact.html">Contact Us</a>
@@ -86,6 +89,13 @@
         <span>2</span>
       </a>
     </div>
+
+  </div>
+
+  <div class="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
   </div>
   <!-- hero -->
   <div class="hero-container">
@@ -106,9 +116,12 @@
       <h3>SALE OFF 30%</h3>
       <h1>Classic 2023 Interior Designs</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <button>
-        Shop Now <img src="images/right-arrow-svgrepo-com.svg" alt="" />
-      </button>
+      <a href="shop.html">
+        <button>
+          Shop Now <img src="images/right-arrow-svgrepo-com.svg" alt="" />
+        </button>
+      </a>
+
     </div>
   </div>
 
@@ -509,32 +522,36 @@
         <h1>Up To 60% Off</h1>
         <div class="couch-blk-circle">
           <div>
-            <img src="images/Ellipse 9.svg" alt="" />
-            <p class="ellip-text-1">
-              <b>3</b> <br />
-              Days
-            </p>
+            <div class="black-circle">
+              <p class="ellip-text-1">
+                <b>3</b> <br />
+                Days
+              </p>
+            </div>
           </div>
           <div>
-            <img src="images/Ellipse 9.svg" alt="" />
-            <p class="ellip-text-2">
-              <b>5</b> <br />
-              Hours
-            </p>
+            <div class="black-circle">
+              <p class="ellip-text-1">
+                <b>5</b> <br />
+                Hours
+              </p>
+            </div>
           </div>
           <div>
-            <img src="images/Ellipse 9.svg" alt="" />
-            <p class="ellip-text-3">
-              <b>30</b> <br />
-              Mins
-            </p>
+            <div class="black-circle">
+              <p class="ellip-text-1">
+                <b>30</b> <br />
+                Mins
+              </p>
+            </div>
           </div>
           <div>
-            <img src="images/Ellipse 9.svg" alt="" />
-            <p class="ellip-text-4">
-              <b>30</b> <br />
-              Secs
-            </p>
+            <div class="black-circle">
+              <p class="ellip-text-1">
+                <b>30</b> <br />
+                Secs
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -551,7 +568,7 @@
       <div class="last-blog-card1">
         <img src="images/card1.jpg" alt="" />
         <p>Nov 7, 2023</p>
-        <a href="">
+        <a href="Blog.html">
           <h4>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </h4>
@@ -566,7 +583,7 @@
       <div class="last-blog-card2">
         <img src="images/card2.jpg" alt="" />
         <p>Nov 7, 2023</p>
-        <a href="">
+        <a href="Blog.html">
           <h4>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </h4>
@@ -590,11 +607,11 @@
       <a href=""><img src="images/instagram.svg" alt="" /></a>
     </div>
     <div class="social-middle">
-      <a href="">Home</a>
-      <a href="">Shop</a>
-      <a href="">Blog</a>
-      <a href="">About Us</a>
-      <a href="">Contact Us</a>
+      <a href="home.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="Blog.html">Blog</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
     </div>
 
     <div class="newsletter">
@@ -608,7 +625,10 @@
     </div>
   </footer>
   <div class="sec-footer">
-    <p>&copy; 2023 All Rights Reserved.</p>
+    <div>
+      <p>&copy; 2023 All Rights Reserved.</p>
+    </div>
+
     <div class="sec-footer-img">
       <a href="">
         <img src="images/visa.svg" alt="" />
