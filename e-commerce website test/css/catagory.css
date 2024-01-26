@@ -44,6 +44,20 @@
     }
 }
 
+@media (max-width:600px){
+    .shop-product-grid .menu {
+        padding: 0 20px;
+    }
+
+    .shop-nav {
+        padding: 0 20px;
+    }
+
+    .cata-nav {
+        margin: 50px;
+    }
+}
+
 @media (max-width:426px){
     .cata-nav {
         margin: 30px 30px;

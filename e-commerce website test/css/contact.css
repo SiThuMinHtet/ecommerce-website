@@ -59,6 +59,21 @@ textarea {
     color: white;
 }
 
+@media (max-width:1180px){
+    .talk-to-us-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .talk-to-us-info {
+        margin-top: 50px;
+    }
+}
+ 
+
 @media (max-width:768px) {
     .talk-to-us-container {
         display: flex;
@@ -72,9 +87,18 @@ textarea {
         align-items: baseline;
         margin-top: 100px;
     }
+
+    body {
+        padding: 0;
+    }
 }
 
-@media (max-width:426px) {
+@media (max-width:466px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .talk-to-us-info  {
         display: flex;
         flex-direction: column;
@@ -82,7 +106,7 @@ textarea {
 
     .talk-to-us-first-input {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     #submit {
